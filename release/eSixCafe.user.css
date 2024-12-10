@@ -25,17 +25,17 @@
 /* Search 'Styling starts now' to skip to content */
 
 
-@-moz-document domain("e621.net"), domain("e926.net") {
+/*@-moz-document domain("e621.net"), domain("e926.net") {*/
 	/* e621.net */
 
-if roundness == square {
+/*if roundness == square {*/
 	:root {
 		--avatar-border-radius: 2.5%;
 	}
 	.avatar .post-thumbnail {
 		background-color: var(--elements-highlight);
 	}
-}
+/*}*/
 if roundness == circle {
 	:root {
 		--avatar-border-radius: 50%;
@@ -908,7 +908,7 @@ if themep == classic {
 		--button-text-hover-secondary: #222;
 	}
 }
-if themep == pThemes {
+/*if themep == pThemes {*/
 	:root {
 		--themeName: "Nord"
 		--thin-scrollbar: var(--true);
@@ -1332,7 +1332,7 @@ if themep == pThemes {
 		--button-text-hover: #d6bbae;
 		--button-text-hover-secondary: #fbf1c7;
 	}
-}
+/*}*/
 if themep == classic {
 	if borderRank == 1 {
 		body[data-th-main="hexagon"] {
@@ -4695,9 +4695,9 @@ if themep == classic {
 		margin-right: 1rem!important;
 	}
 	}
-	}
+	/*}*/
 
-@-moz-document url-prefix("https://e621.net/users/"), url-prefix("https://e926.net/users/") {
+/*@-moz-document url-prefix("https://e621.net/users/"), url-prefix("https://e926.net/users/") {*/
 	/* Users page */
 	div#c-users div#a-show .profile-stats {
 		background-color: var(--bg-400)!important;
@@ -4945,7 +4945,7 @@ if themep == classic {
 			}
 		}
 	}
-}
+/*}*/
 
 @-moz-document url("https://e621.net/"), url("https://e926.net/"), url("https://e926.net"), url("https://e621.net") {
 	/* Home page */
