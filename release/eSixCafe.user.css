@@ -1440,6 +1440,7 @@ if themep == classic {
 		top: 0!important;
 		border-bottom: none!important;
 		min-height: 60px!important;
+		padding-top: 0.5em;
 		menu {
 			background-color: rgba(0,0,0,0)!important;
 			margin: 0 auto;
@@ -1797,9 +1798,9 @@ if themep == classic {
 		justify-content: center;
 	}
 	#search-box h1 {
-		position: absolute;
+		/*position: absolute;*/
 		font-size: 0rem!important;
-		width: 90%;
+		width: 10%;
 		pointer-events: none;
 	}
 	#search-box h1 span {
@@ -2054,10 +2055,10 @@ if themep == classic {
 	}
 	div#notice {
 		background-color: var(--bg)!important;
-		height: 2rem;
-		width: 20%!important;
+		/*height: 2rem;*/
+		/*width: 20%!important;*/
 		top: 3rem!important;
-		left: 40%;
+		/*left: 40%;*/
 		margin-inline: auto;
 		position: absolute;
 		display:flex;
@@ -2674,7 +2675,7 @@ if themep == classic {
 	div#c-posts div.notice.notice-parent article.thumbnail .desc div *, div#c-posts div.notice.notice-child article.thumbnail .desc div *, .vertical-section article.thumbnail .desc div * {
 		margin: 0;
 	}
-	article.thumbnail[data-tags~="animated"] > a::before, article.thumbnail[data-file-ext~="webm"] > a::before {
+	article.thumbnail[data-tags~="animated"] > a::before, article.thumbnail[data-file-ext~="webm"] > a::before, article.thumbnail[data-file-ext~="mp4"] > a::before {
 		background-color: var(--bg-300)!important;
 		color: var(--base-text)!important;
 		border: 2px solid var(--bg-400)!important;
@@ -2696,6 +2697,23 @@ if themep == classic {
 	}
 	article.thumbnail .desc{
 		background-color: var(--bg-400) !important;
+		display: block;
+		text-align: center;
+	}
+	article.thumbnail .desc .score {
+		margin-left: 0.5em;
+	}
+	article.thumbnail .desc .favorites {
+		margin-left: 0.5em;
+	}
+	article.thumbnail .desc .comments {
+		margin-left: 0.5em;
+	}
+	article.thumbnail .desc .rating {
+		margin-left: 0.5em;
+	}
+	article.thumbnail .desc .extras {
+		margin-left: 0.5em;
 	}
 	/* Editing mode */
 	div#c-posts div#a-show #edit .edit-submit {
@@ -4133,7 +4151,7 @@ if themep == classic {
 		border-left: .25rem solid var(--elements-highlight)!important;
 		border-radius: 2px 8px 8px 2px;
 		font-size: .8rem!important;
-		width: fit-content;
+		/*width: fit-content;*/
 	}
 	@media screen and (max-width: 800px) {
 		#c-wiki-page-versions {
