@@ -2658,7 +2658,7 @@ if themep == classic {
 	}
 	#posts-container article.thumbnail .desc, #c-post-approvals article.thumbnail .desc, #c-post-flags article.thumbnail .desc,#c-post-replacements article.thumbnail .desc	{
 		border-radius: 0 0 .5rem .5rem;
-		display: flex;
+		/*display: flex;*/
 		flex-direction: column;
 		background-color: var(--bg-400);
 	}
