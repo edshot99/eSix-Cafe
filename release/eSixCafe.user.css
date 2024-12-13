@@ -4340,7 +4340,7 @@ if themep == classic {
 
 	}
 	@media screen and (max-width: 800px) {
-	div#page {
+	/*div#page {
 		overflow: hidden;
 	}
 	body[re621="true"] #maintoggle {
@@ -4541,7 +4541,7 @@ if themep == classic {
 			div.tag-actions {
 				right: -2rem;
 			}
-		}
+		}*/
 
 	/*	aside#sidebar {
 		margin-top: 45vh;
@@ -4564,7 +4564,7 @@ if themep == classic {
 		#image-extra-controls {
 		margin-top: 45vh;
 		}*/
-	}
+	/*}
 	body[data-action="show"] div#c-posts #a-show, body[data-action="show-seq"] div#c-posts #a-show {
 		flex-direction: column-reverse;
 	}
@@ -4720,7 +4720,7 @@ if themep == classic {
 	body.resp div#page #c-help section#content, body.resp div#page #c-wiki-pages section#content {
 		margin-left: 1rem!important;
 		margin-right: 1rem!important;
-	}
+	}*/
 	}
 
 	/* Security page */
