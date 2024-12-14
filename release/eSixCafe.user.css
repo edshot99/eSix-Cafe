@@ -1441,7 +1441,6 @@ if themep == classic {
 		top: 0!important;
 		border-bottom: none!important;
 		min-height: 60px!important;
-		padding-top: 0.5em;
 		menu {
 			background-color: rgba(0,0,0,0)!important;
 			margin: 0 auto;
@@ -1806,9 +1805,9 @@ if themep == classic {
 		position:relative;
 	}
 	#search-box h1 {
-		/*position: absolute;*/
+		position: absolute;
 		font-size: 0rem!important;
-		width: 10%;
+		width: 90%;
 		pointer-events: none;
 		z-index:9999;
 	}
